@@ -5,5 +5,5 @@
 */
 
 function fibonacci(num) {
-  
+  return num(i)
 }

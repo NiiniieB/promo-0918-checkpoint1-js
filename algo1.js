@@ -1,11 +1,12 @@
 /*
-Un employé de théatre voudrait afficher la liste de tous les sièges présents dans sa salle principale.
-Dans la salle les sièges sont répartis de la manière suivantes : 
+Un employé de théatre voudrait afficher la liste de tous les
+sièges présents dans sa salle principale.
+Dans la salle les sièges sont répartis de la manière suivantes :
   - Il y a 26 colonnes de sièges, numérotés de "1" à "26"
   - Chaque colonne contient 100 sièges, numérotés de "1" à "100"
 
-Au final la liste devra ressembler à : 
-1-1 
+Au final la liste devra ressembler à :
+1-1
 1-2
 1-3
 .
@@ -15,5 +16,15 @@ Au final la liste devra ressembler à :
 26-99
 26-100
 
-Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
+Écrire une fonction qui retourne un tableau comprenant
+tous les numéros des sièges.
 */
+
+let colSeat = [26];
+let mySeat = 100;
+
+function myList() {
+  for (let [colSeat,mySeat] of myList) {
+    console.log(colSeat + " - " + mySeat)
+  }
+}
