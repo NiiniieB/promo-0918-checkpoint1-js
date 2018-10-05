@@ -17,9 +17,12 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
-const nbColone = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26];
-const nbSiege = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
 
-function liste(){
-  for( let i = 0; i< liste.length; i++);
+function liste(a,b){
+  for( let i = 1; i<= a; i++){
+    for( let y = 1; y<= b; y++){
+      console.log(`${i} - ${y}`)
+    }
+    }
 }
+liste(26,100);
