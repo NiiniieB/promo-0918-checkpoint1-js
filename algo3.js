@@ -5,5 +5,14 @@
 */
 
 function fibonacci(num) {
-  
+    let nb = 0;
+    let nbAv = 1;
+    let nbAvAv = 0;
+    for (let i = 0; i < num; i++) {
+        nb = nbAv + nbAvAv;
+        nbAvAv = nbAv;
+        nbAv = nb;        
+    }
+    return (nb)
 }
+fibonacci(10)
