@@ -24,9 +24,10 @@ function tabSieges(col, seat){
   
   for (let i=1; i<=col; i++){
     for (let j=1; j<=seat; j++){
-      listSeats = tabSeats.push(i +'-'+ j);  
+      tabSeats.push(i +'-'+ j);  
     }
   }
-  console.log(tabSeats);
+  return tabSeats;
 }
+
 tabSieges(26, 100);
