@@ -23,7 +23,7 @@ tous les numéros des sièges.
 let colSeat = [26];
 let mySeat = 100;
 
-function myList() {
+function myList(arr.map(colSeat [, mySeat])) {
   for (let [colSeat,mySeat] of myList) {
     console.log(colSeat + " - " + mySeat)
   }
