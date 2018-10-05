@@ -29,5 +29,3 @@ lire l'indice 2 du tableau colonnes
 et lire l'indice 1 du tableau Sièges et ajouter 1 a chaque passage jusqu'a 100
 
 ainsi de suite jusqu'a ce que le tableau colonnes arrive a 26
-
-
