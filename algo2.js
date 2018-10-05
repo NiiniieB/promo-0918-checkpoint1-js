@@ -33,6 +33,23 @@
   array.push(min, max);
 } */
 
+const minMax = (array) => {
+  let min = array[0];
+  let max = array[0];
+  let i = 0;
+
+  for (i = 0; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
+    } else if (array[i] > max) {
+      max = array[i];
+    }
+  }
+  array.push([min, max]);
+  return array[array.length - 1];
+}
+
+/* 
 function minMax(array) {
   let min = array[0];
   let max = array[0];
@@ -49,6 +66,14 @@ function minMax(array) {
    return array[array.length - 1];
 }
 
-array = [-30, 5, 43, 108, -5, -7, 89];
-console.log(minMax(array));
+*/
+
+const array1 = [4, 6, 35, -65, -9, 0, 67]; // Should return [ -65, 67 ]
+const array2 = [-30, 5, 43, 108, -5, -7, 89]; // Should return [ -30, 108 ]
+const array3 = [56, 7, 63, 9, 7, 12, 85]; // Should return [ 7, 85 ]
+console.log(
+  minMax(array1),
+  minMax(array2),
+  minMax(array3)
+);
 
