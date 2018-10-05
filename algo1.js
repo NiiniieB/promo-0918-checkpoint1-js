@@ -18,14 +18,15 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 
 */
-var daysArray = ["1", "2", "3", "4", "5"];
-var courseHwork = ["4", "8", "15", "16", "23", "42"];
-
-var arr = daysArray.concat(courseHwork);
-var sorted_arr = arr.sort();
-var results = [];
-for (var i = 0; i < arr.length - 1; i++) {
-    if (sorted_arr[i + 1] == sorted_arr[i]) {
-        console.log(results.push(sorted_arr[i]));
-    }
+function nbSiege (array) {
+  let newArray = [];
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      newArray.push(array[i] + '-' + array[j]);
+    
+  }
+  return newArray;
 }
+}
+console.log(nbSiege([1,2,3,4,5,6,7,8,9]));
+
