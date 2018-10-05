@@ -21,8 +21,8 @@ show = () => {
   result = []
   for (let i=1 ; i<=26 ; i++){
     for (let j=1 ; j<=100 ; j++)
-     (result.push(i+"-"+  j))
+     (result.push(i+"-"+ j))
   }
-  console.log(result)
+  return(result)
 }
 show()
