@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+	background-color: #DC7633 ;
+}
+
+.img-container{
+	width: 30em;
+	height: 15em;
+}
+
+img{
+	width: 25em;
+	height: 14em;
+}
