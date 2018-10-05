@@ -1,0 +1,26 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+    overflow-x: hidden;
+}
+
+.img {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.row {
+    padding-top: 2%;
+}
+
+.logothomas {
+    padding-left: 46%;
+    padding-top: -2%;
+}
+
+.col-sm-12 {
+    padding-bottom: 2%;
+}
