@@ -1,0 +1,28 @@
+/* GENERAL */ 
+img{
+    width:100%;
+    margin: 10px 0;
+  }
+
+  /*carroussel*/
+
+.carroussel-container {
+    margin:0;
+    padding: 0;
+}
+
+.carousel-caption {
+    padding-bottom: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.carousel-caption h1.title {
+    font-size: 4vw;
+    font-family: titlen;
+    color: black;
+}
+
