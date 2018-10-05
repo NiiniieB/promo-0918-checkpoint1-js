@@ -18,42 +18,21 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
-const nbOfColumn = 4;
-;
-const nbOfSeatPerColumn = 3;
+
 
 const theaterSeatsModelization =() => {
+	const nbOfColumn = 26;
+	const nbOfSeatPerColumn = 100;
 	const seats = [];
-
-	// for(let i = 0; i < (nbOfColumn*nbOfSeatPerColumn); i++) {
-
-
-		for(let i = 0; i < (nbOfColumn); i++) {
-
-			for(let k = 0; k < (nbOfSeatPerColumn); k++) {
-				seats[k+i] = (i)
-				seats[k+i] =  (k)
-			    
-
+		for(let i = 1; i <= (nbOfColumn); i++) {
+			for(let k = 1; k <= (nbOfSeatPerColumn); k++) {	
+				seats.push(`${i}-${k}`);
 			}
-			
 		}
-		console.log(seats);	
+		return seats
 	}
 
 
 
-theaterSeatsModelization()
-
-
-
-	// for (let i = 0; i < 3; i++) {
-	// 	//seats[i] = i+1
-	// 	for (let j = 0; j < 4; j++) {
-	// 		seats[i] = `${i+1}-${seats.push(j+1)} `
-	// 		 console.log(seats)
-		
-	// 	}
-	// }
 		
 	
