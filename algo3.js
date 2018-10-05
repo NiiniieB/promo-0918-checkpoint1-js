@@ -5,6 +5,12 @@
 */
 
 function fibonacci(num) {
-  
+  const res =[0,1];
+  for (let i = 1; i<num+1; i++){
+      res[i + 1] =res[i]+res[i -1]
+  }
+  return res[res.length-1]
 }
+
+console.log(fibonacci(6))
 
