@@ -17,3 +17,10 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+let seats = []
+for (let R = 1; R<=26; R++) {
+        for(let S = 1; S<=100; S++) {
+                seats.push([R] + "-" + [S]);
+        }
+}
+console.log(seats)
