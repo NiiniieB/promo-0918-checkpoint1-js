@@ -18,11 +18,14 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
-let siege = 1;
-let colonne = 1;
-for (i = 0; i < 26; i++) {
-  for (siege = 1; siege <= 100; siege++) {
-    console.log(colonne + "-" + siege);
+function numSieges() {
+  let siege = 1;
+  let colonne = 1;
+  let array = [];
+  for (i = 0; i < 26; i++) {
+    for (siege = 1; siege <= 100; siege++) {
+      array.push(colonne + "-" + siege);
+    }
+    colonne += 1;
   }
-  colonne += 1;
 }
