@@ -17,3 +17,25 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+
+  /* Je déclare la fonction */
+
+function comptageDeSiege(nbColonne, nbSiege) {
+
+  /*Je déclare le nombre de colonne ainsi que le nombre de siège par colonne donnés-> const ET mon tableau final*/
+
+  const nbColonne = 26;
+  const nbSiege = 100;
+  let numSiege = [];
+
+  /* je dois compter chaque siège pour chaque colonne -> Boucle For */
+
+  for (let i=0; i<.length; i++) /* Je suis perdu */
+
+  /* chaque siège que je compte pour chaque colonne doit aller dans un tableau au fur et à mesure*/
+
+
+
+  /* Afficher le tableau final */
+}
