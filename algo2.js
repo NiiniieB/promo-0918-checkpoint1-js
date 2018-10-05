@@ -32,3 +32,16 @@ var minMax = () => (array) => {
   }
   array.push(min, max);
 }
+
+
+
+
+
+const array = [4, 6, 35, -65, -9, 0, 67]
+const minMax = () =>  {
+    const newTab = [];
+    newTab[0] = Math.min(...array);
+    newTab[1] = Math.max(...array);
+    return newTab
+}
+console.log(minMax(array))
