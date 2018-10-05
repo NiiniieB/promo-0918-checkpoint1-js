@@ -17,3 +17,11 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+
+const Siege = () =>{
+  let nbrColonne=i
+  let nbrSiege=y
+
+  while (let nbrColonne=1), 
+}
