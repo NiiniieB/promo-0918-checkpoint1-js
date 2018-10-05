@@ -19,20 +19,17 @@ Au final la liste devra ressembler à :
 */
 function myArray(){
 
-let nbColonnes = 0;
-let nbSieges = 0;
-let siegeC = 0;
-let siegeL = 0;
+let i;
+let nbSieges;
+let siegeC;
 let siege = [];
 
-  for (i = 0; i < nbColonnes.length; i ++){ 
-    siegeC = nbColonnes[i];
-    for ( i = 0; i < nbSieges.length; i ++){ 
-      siegeL = nbSieges[i];
+  for (i = 1; i <= 26; i ++){ 
+    for ( nbSieges = 1; i <= 100; nbSieges ++){ 
+      siegeC = i + "-" + nbSieges;
+      siege.push(siegeC);
     }
-    siege.push(siegeC);
-    siege.push(siegeL);
   }
   return siege;
 }
-console.log(myArray([1, 2, 4, 5]))
+console.log(myArray())
