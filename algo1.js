@@ -18,7 +18,16 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
-function plan(N)
-const res = [1,1]
-
+const plan = (colonnes, rangs) => {
+  let listeSieges = new Array(colonnes);
+  for (let i = 0; i < colonnes; i++) {
+    listeSieges[i] = new Array (rangs);
+    for (let j = 0; j < rangs; j++) {
+      listeSieges[i][j] = ((i+1) + "-" + (j+1))
+       
+    }
+  }
+  console.table(listeSieges)
+}
+plan(26,100)
 
