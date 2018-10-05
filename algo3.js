@@ -17,8 +17,3 @@ function fibonacci(num) {
     }
     return fiboArr[num];
 }
-
-console.log(fibonacci(0))
-console.log(fibonacci(1))
-console.log(fibonacci(6))
-console.log(fibonacci(10))

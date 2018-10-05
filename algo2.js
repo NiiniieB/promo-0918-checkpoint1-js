@@ -30,5 +30,3 @@ const minMax = (array) => {
   }
   return [min, max];
 }
-console.log(minMax([-30, 5, 43, 108, -5, -7, 89]))
-console.log(minMax([4, 6, 35, -65, -9, 0, 67]))

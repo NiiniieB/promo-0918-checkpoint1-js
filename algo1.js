@@ -26,5 +26,3 @@ const countChairs = (nbCol, chairsPerCol) => {
   }
   return chairsArr;
 }
-
-console.log(countChairs(1,0));
