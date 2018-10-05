@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function numSieges(nbCol, siegesCol) {
+  let numSiegesTab = []
+  for (let i = 1 ; i <= nbCol ; i += 1){
+    for (let j = 1 ; j <= siegesCol ; j += 1){
+      numSiegesTab.push(i + '-' + j)
+    }
+  }
+  return numSiegesTab
+}
+
+console.log(numSieges(26, 100))

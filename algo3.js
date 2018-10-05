@@ -5,5 +5,11 @@
 */
 
 function fibonacci(num) {
-  
+  let fibonnacciTab = [0, 1]
+  for (let i = 2 ; i <= num + 1 ; i += 1){
+    fibonnacciTab[i] = fibonnacciTab[i - 2] + fibonnacciTab[i - 1]
+  }
+  return fibonnacciTab[num + 1]
 }
+
+console.log(fibonacci(10))
