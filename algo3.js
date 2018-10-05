@@ -5,8 +5,12 @@
 */
 
 function fibonacci(num) {
-  let fibo = []
-  num1 = 0
-  num2 = 1
-  
+  let fibo = [0, 1]
+  for(let i = 1; i < num; i++) {
+  	fibo[i + 1] = fibo[i] + fibo[i - 1]
+  }
+  return fibo[fibo.length - 1]
+
 }
+
+console.log(fibonacci(10))
