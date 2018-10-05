@@ -1,0 +1,10 @@
+/* Change of image width and padding around */
+
+img{
+    max-width: 100%;
+    padding:10px;
+}
+
+h1{
+    color:purple;
+}
