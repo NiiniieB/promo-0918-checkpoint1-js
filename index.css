@@ -1,0 +1,10 @@
+.galerie {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
