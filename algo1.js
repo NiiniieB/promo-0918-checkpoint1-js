@@ -26,19 +26,19 @@ for (let i = 1; i <= colonnes; i++) {
   for (let j = 1; j <= sieges; j++) {
     arr[0] = i;
     arr[1] = j;
-    console.log(arr);
+    console.log(arr.join('-'));
   }
 }
 */
 
 const listeSieges = (nbColonnes, nbSieges) => {
-  let arr = [];
-  for (let i = 1; i <= nbColonnes; i++) {
-    for (let j = 1; j <= nbSieges; j++) {
-      arr[0] = i;
-      arr[1] = j;
-      console.log(arr);
-    }
-  }
-}
+	let arr = [];
+	for (let i = 1; i <= nbColonnes; i++) {
+		for (let j = 1; j <= nbSieges; j++) {
+			arr[0] = i;
+			arr[1] = j;
+			console.log(arr.join('-'));
+		}
+	}
+};
 console.log(listeSieges(26, 100));
