@@ -26,3 +26,4 @@ const countChairs = (nbCol, chairsPerCol) => {
   }
   return chairsArr;
 }
+

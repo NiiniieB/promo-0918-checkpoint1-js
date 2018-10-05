@@ -18,13 +18,13 @@
 */
 
 const minMax = (array) => {
-  let min = 0;
+  let min;
   let max = 0;
   for (let i = 0; i < array.length; i+=1) {
-    if (array[i] < min) {
+    if (i === 0  || array[i] < min) {
       min = array[i];
     }
-    if (array[i] > max) {
+    if (i === 0  || array[i] > max) {
       max = array[i];
     }
   }
