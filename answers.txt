@@ -1,0 +1,16 @@
+Q.1: master
+Q.2: git checkout -b 'X',git checkout 'b'
+Q.3: git clone
+Q.4: git status
+Q.5: b
+Q.6: root
+Q.7: nano
+Q.8: ls
+Q.9: clear
+Q.10: b,e
+Q.11: e,a
+Q.12: c
+Q.13: c
+Q.14: d
+Q.15: a
+Q.16: a
