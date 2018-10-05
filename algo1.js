@@ -28,4 +28,3 @@ function theatre() {
 	return tableau;
 }
 
-console.log(theatre());
