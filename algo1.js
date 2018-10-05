@@ -17,3 +17,12 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+for (i = 1; i < 27; i++){
+  let sièges = [i];
+  for (a = 1; a < 101; a++){
+    let colonnes = [a];
+    let liste = sièges + "-" + colonnes;
+    return liste;
+}
+}
