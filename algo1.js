@@ -17,3 +17,13 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+let x = 1;
+let y = 1;
+while (x <= 26){
+    if (y <= 100){
+      console.log(x + "-" + y);
+      y++;
+  } else {
+  x +=1;
+  }
+}
