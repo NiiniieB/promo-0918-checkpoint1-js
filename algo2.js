@@ -17,7 +17,7 @@
 * Résultat : [7, 85]
 */
 
-var minMax = () => (array) => {
+/*var minMax = () => (array) => {
   const min = 0;
   const max = array[0];
 
@@ -31,4 +31,24 @@ var minMax = () => (array) => {
     return array;
   }
   array.push(min, max);
+}*/
+
+minMax = (array) => { 
+  
+  let min = array[0];
+  let max = 0;
+
+  for (let i = 0; i < array.length; i++) {
+
+    if (array[i] <= min){
+      min = array[i];
+    }
+    else if (array[i] >= max){
+      max = array[i];
+    }
+  }
+
+  let tabMinMax = [min, max];
+  
+  return tabMinMax
 }
