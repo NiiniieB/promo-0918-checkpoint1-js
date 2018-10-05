@@ -5,5 +5,8 @@
 */
 
 function fibonacci(num) {
-  
+  if (a>)
+    return 
 }
+
+// j'ai juste noter la syntaxe à utiliser..

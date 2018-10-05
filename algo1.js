@@ -17,3 +17,19 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+let siègesRangée = 0;
+let totalRangée = 0;
+
+for(i = 0; i < 100; i++) {
+siègesRangées += 1;
+  return siègesRangée
+
+  for(i = 0; i< 26; i++){
+totalRangée += 1; totalRangée
+    return
+  }
+} 
+
+// Compter le nombre de siègesRangée
+// compter le nbre totalRangée
+
