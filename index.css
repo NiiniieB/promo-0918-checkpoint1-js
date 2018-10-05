@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "FoodWars";
+  src: url("SedonaScriptFLF.ttf") format("truetype");
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1 {
+  font-family: "FoodWars";
+  background: -webkit-linear-gradient(#ef591a, #f0d007);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icons {
+  font-family: "FoodWars";
+  font-size: 20px;
+  color: #1a0707;
+}
+
+a {
+  cursor: url("naruto.png"), auto;
+}
