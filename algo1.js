@@ -18,15 +18,29 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
-const fDisplaySeats = (iIntRow, iIntCol) => {
+/* Function returning and displaying an array of the seats in a theater given the number of rows and columns
+iNbRows : Number of rows of seats in the theater
+iNbCols : Number of columns of seats in the theater
+*/ 
+const fDisplaySeats = (iNbRows, iNbCols) => {
 
+  //Check if the number of rows and the number of columns are > 0, if not return an empty array
+  if (iNbRows <= 0 && iNbCols <= 0) return [];
+
+  //Initialisation of an empty array
   let arr = []
-  for (let i = 1; i <= iIntRow; i++) {
-    for (let j = 1; j <= iIntCol; j++) {
+
+  //Run through the number of rows
+  for (let i = 1; i <= iNbRows; i++) {
+    //Run through the number of columns
+    for (let j = 1; j <= iNbCols; j++) {
+      //Add the seat number 'Row-Column' in the array
       arr.push(`${i}-${j}`); 
+      //Display it in the console
       console.log(`${i}-${j}`);  
     }
   }
+  //return the array created
   return arr;
 
 }
