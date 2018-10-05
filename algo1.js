@@ -26,9 +26,10 @@ const tab2 = new Array(99)
 
 function liste() {
 
-    for(i = 0; i > 26; i++)
-      x += i
-      return tab1[x]
+    for(i = 0; i > tab1.length; i++)
+      x = x + i
+      
+     
 }
 
 console.log(liste())
