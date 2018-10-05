@@ -5,5 +5,13 @@
 */
 
 function fibonacci(num) {
-  
+   let fib = [1, 1]
+   let actual = 0
+
+   for(let i = 0 ; i < num ; i++){
+      actual = fib[i] + fib[i+1]
+      fib.push(actual)
+
+   }
+   return fib[fib.length-2];
 }
