@@ -26,3 +26,8 @@ function theatre (arr1, arr2) {
   }
   return newArr;
 }
+
+/* arr1 = [1, 2, 3, .... 26]
+arr2 = [1, 2, 3, ..... 100]
+
+
