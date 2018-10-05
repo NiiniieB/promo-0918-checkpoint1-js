@@ -4,6 +4,18 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
+let num = 10
+function fibonacci(num){
+    var a = 1, b = 0, temp;
   
-}
+    while (num >= 0){
+      temp = a;
+      a = a + b;
+      b = temp;
+      num--;
+    }
+  
+    return b;
+  }
+
+  console.log(fibonacci(num));
