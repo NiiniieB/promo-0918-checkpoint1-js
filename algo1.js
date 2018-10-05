@@ -19,9 +19,13 @@ Au final la liste devra ressembler à :
 */
 
 function chairCount(col, row){
+    let array = [];
+
     for(let i = 1; i <= col; i++){
         for(let j = 1; j <= row; j++){
-            console.log(i, j);
+            array.push(`${i}-${j}`);
         }
     }
+
+    return array;
 } 
