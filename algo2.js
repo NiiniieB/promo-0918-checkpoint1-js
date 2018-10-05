@@ -22,10 +22,10 @@ function minMax(array){
   const max = array[0];
 
   for (let i = 0; i = array.length; i++) {
-    if (array(i) < min) {
+    if (array[i] < min) {
       min = array;
     }
-    if (array[i] = max) {
+    if (array[i] < max) {
       max = array[i];
     }
     return array;
