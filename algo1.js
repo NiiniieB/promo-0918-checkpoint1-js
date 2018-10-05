@@ -17,3 +17,23 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function placeList (col, row) {
+  let result = [];
+  let i = 0;
+  let j = 0;
+  let count = 0;
+
+  for (i = 0; i < col; i++) {
+    for (j = 0; j < row; j++) {
+      result[count] = (i + 1) + " - " + (j + 1);
+      count += 1;
+    }
+  }
+  return (result);
+
+  
+}
+
+console.log(placeList(26, 100));
+ 
