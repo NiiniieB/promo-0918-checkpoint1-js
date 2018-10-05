@@ -5,5 +5,14 @@
 */
 
 function fibonacci(num) {
-  
+    let fiboSeq = [0,1];
+    for (let i = 1; i<=num; i++){
+        fiboSeq.push(fiboSeq[i-1] + fiboSeq[i]);
+    }
+    return fiboSeq[num+1];
 }
+
+
+// Test 
+
+console.log(fibonacci(59));
