@@ -17,3 +17,18 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+function cinema(tab) {
+  let col = 0
+  let row = 0
+  let tab = [row, col]
+  
+  for (i = 1; i < 27; i++) {
+    tab[0] = tab[0] + 1
+    for (j = 1; j < 101; j++) {
+      if (tab[1] === 100) tab[1] = 0;
+      if (tab[1] < 100) tab[1] = tab[1] + 1;
+
+     console.log(tab)
+    }
+  }
+}
