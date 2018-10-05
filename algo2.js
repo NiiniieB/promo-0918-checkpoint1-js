@@ -17,18 +17,21 @@
 * Résultat : [7, 85]
 */
 
-var minMax = () => (array) => {
-  const min = 0;
-  const max = array[0];
+function minMax(array) {
+  let min = 0;
+  let max = array[0];
 
-  for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
+  for (let i = 0; i < array.length; i++) { // on parcoure le tableau
+    if (array[i] <= min) { // si l'index du tableau est inferieur ou egal à 0, il devient le min.
+      min = array[i]; 
     }
-    if (array[i] = max) {
-      max = array[i];
+    if (array[i] >= max) { // si l'index du tableau est supérieur ou égal à max, il devient le max.
+      max = array[i]; 
     }
-    return array;
+    
   }
-  array.push(min, max);
+  
+  console.log([min,max])
 }
+
+return minMax([4, 6, 35, -65, -9, 0, 67]);

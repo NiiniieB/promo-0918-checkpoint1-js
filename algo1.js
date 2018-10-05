@@ -17,3 +17,22 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+
+
+function seatList() {
+  let seats = [];
+  let y = 1;
+  for (let y = 1; y < 27; y++){  
+    for(let i = 1; i < 101; i++){ 
+      seats[i]= y + "-" +i; 
+    }
+    console.log(seats);
+
+  }
+  
+  
+  
+}
+
+return seatList();
