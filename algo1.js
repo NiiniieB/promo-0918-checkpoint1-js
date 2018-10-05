@@ -17,3 +17,13 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+const roomPlace = []
+
+const listPlace = (column ,number) => {
+  for(let i = 1; i <= column; i++) {
+    for(let inumber = 1; inumber <= number; inumber++) {
+      roomPlace.push(i + "-" + inumber)
+    }
+  }
+  return roomPlace
+}
