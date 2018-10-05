@@ -22,8 +22,8 @@ var minMax = () => (array) => {
   const max = array[0];
 
   for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
+    if (array[i] < min) {
+      min = array[i];
     }
     if (array[i] = max) {
       max = array[i];
@@ -32,5 +32,3 @@ var minMax = () => (array) => {
   }
   array.push(min, max);
 }
-
-return minMax(array[-30, 5, 43, 108, -5, -7, 89])
