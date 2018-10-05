@@ -17,14 +17,18 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
-const Siege = () =>{
-  let array= []
+const minMax = (array) => {
+  let min = array[0];
+  let max = array[0];
 
-  for (let i = 1; i<=26; i++){
-    for (let z = 1; z<=100; z++){
-      array.push(`${i} - ${z}`)
-      }
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
     }
-  return array
+    if (array[i] > max) {
+      max = array[i];
+    }
+  }
+  return [min, max];
 }
-console.log(Siege())
+console.log(minMax([56, 7, 63, 9, 7, 12, 85]))
