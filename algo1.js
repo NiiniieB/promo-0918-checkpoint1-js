@@ -19,6 +19,12 @@ Au final la liste devra ressembler à :
 */
 let seatArray = [];
 
-let SeatNumbers = () => {
-    for (let i = 0; i < )
+let SeatNumbers = (26, 100) => {
+    for (let i = 1; i < 26 i++) {
+      for (let j = 1; j < 100; j++){
+        seatArray.push (`${i}`${j})
+      }
+    }   
 }
+
+console.log(seatArray) 
