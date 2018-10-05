@@ -1,0 +1,9 @@
+*{
+margin : 0;
+padding: 0;  
+}
+
+.gallerie {
+    margin-bottom: 2%;
+    width: 20px;
+}
