@@ -17,3 +17,21 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+// Retourne un tableau au format col-lig de col*lig éléments
+let listeDesSièges = ( col, lig) => {
+  let tableau = []
+  let k = 0
+  for (i = 0; i < col ; i++){
+    for (j = 0; j < lig ; j++){
+      tableau[k++] = `${i+1}-${j+1}`
+    }
+  }
+  return tableau
+}
+
+// affichage de la liste des sièges en fonction sa colonne et de sa rangée
+liste = listeDesSièges (26,100)
+console.log(liste)
+
+
+
