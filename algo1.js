@@ -19,11 +19,16 @@ Au final la liste devra ressembler à :
 */
 
 function siege() {
-  const tab = [];
-  for (let i=1;i<101;i++) {
-    for (let j=1;j<27;j++) {
-      tab[i][j] = i + '-' + j;
+  let tab = [];
+  for (let i=0;i<101;i++) {
+    let tabTemp = [];
+    for (let j=0;j<27;j++) {
+      
+      tabTemp[j] = (i+1) + '-' + (j+1);
+
     }
+   
+    tab[i] = [tabTemp];
   }
   return tab;
 }
