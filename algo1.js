@@ -17,3 +17,14 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+function listePlace(){
+  let colSieges = 26;
+  let ligSieges = 100;
+  let noSieges = [];
+  for (let i=1;i<=colSieges;i++){
+    for (let j=1;j<=ligSieges;j++){
+      noSieges.push(i + " - " + j);
+    }
+  }
+  return noSieges;
+}
