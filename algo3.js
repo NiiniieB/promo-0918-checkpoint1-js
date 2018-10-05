@@ -5,5 +5,15 @@
 */
 
 function fibonacci(num) {
-  
+    let fibo = 1;
+    let a = 0;
+    let b = 1;
+    for(let i = 0; i < num; i++){
+        fibo = a + b;
+        a = b;
+        b = fibo;
+    }
+    console.log(fibo);
 }
+
+fibonacci(10);
