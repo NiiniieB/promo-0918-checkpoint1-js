@@ -7,11 +7,11 @@
 function fibonacci(num) {
     let fiboNum = 0
     let fiboArr = [1]
-    for(let i = 1 ; i <= num; i++) {
-        if (i!==1) {
-            fiboNum += fiboArr[i-1]
-        } else {
+    for(let i = 0 ; i <= num; i++) {
+        if (i===0) {
             fiboNum += 1;
+        } else {
+            fiboNum += fiboArr[i-1];
         }
         fiboArr.push(fiboNum)
     }
@@ -20,5 +20,5 @@ function fibonacci(num) {
 
 console.log(fibonacci(0))
 console.log(fibonacci(1))
-console.log(fibonacci(5))
-console.log(fibonacci(12))
+console.log(fibonacci(6))
+console.log(fibonacci(10))

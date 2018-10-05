@@ -6,6 +6,6 @@ header {
     padding: 1rem;
 }
 
-img {
+.thumbnail {
     min-height: 100%;
 }
