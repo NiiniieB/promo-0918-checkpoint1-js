@@ -19,12 +19,13 @@ Au final la liste devra ressembler à :
 */
 let seatArray = [];
 
-let SeatNumbers = (26, 100) => {
-    for (let i = 1; i < 26 i++) {
-      for (let j = 1; j < 100; j++){
-        seatArray.push (`${i}`${j})
+let SeatNumbers = (col, row) => {
+    for (let i = 1; i <= col; i++) {
+      for (let j = 1; j <= row; j++){
+        seatArray.push (`${i}-${j}`)
       }
-    }   
+    }
+return(seatArray)       
 }
 
-console.log(seatArray) 
+console.log(SeatNumbers(26, 10))
