@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px!important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ background-position: center center;
+ background-image:url('image/backgroundimage.jpg')
+}
+
+
+.crop {
+	width: 285px; height: 260px; overflow: hidden; display: block;
+	z-index: 2; 
+	position: relative;
+}
+.crop img {
+	width: 235px; height: 235px; margin: 20px auto 0px; max-width: 100%; z-index: 2;
+	position: relative;
+
+display: block;
+
+border-radius: 0;
+
+padding: 0;
+}
+
