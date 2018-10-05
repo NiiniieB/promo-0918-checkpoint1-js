@@ -31,10 +31,13 @@ function comptageDeSiege(nbColonne, nbSiege) {
 
   /* je dois compter chaque siège pour chaque colonne -> Boucle For */
 
-  for (let i=0; i<.length; i++) /* Je suis perdu */
+  for (let i=0; i<nbColonne; i++) {
+    for (let j=0; j<nbSiege; j++) {
+      /* je suis perdu */
+    }
 
+  }
   /* chaque siège que je compte pour chaque colonne doit aller dans un tableau au fur et à mesure*/
-
 
 
   /* Afficher le tableau final */
