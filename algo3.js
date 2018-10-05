@@ -5,5 +5,14 @@
 */
 
 function fibonacci(num) {
-  
+    let resultNb =[];
+    resultNb.push(0,1);
+    if (num >= 2){
+        for (let i = 2;i < num.length; i++){
+            resultNb[i] =  resultNb[i-1] + resultNb[i-2]
+        }
+            return parseInt(resultNb[num+2]);
+    } 
+        return resultNb[num];
+    
 }

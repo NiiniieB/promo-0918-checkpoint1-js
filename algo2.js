@@ -32,8 +32,7 @@ let minMax = () => (arr) => {
           max = arr[i];
         }
       }
-      arrNew.push(min);
-      arrNew.push(max);
+      arrNew.push(min, max);
       return arrNew;
   }
 }
