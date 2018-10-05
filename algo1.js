@@ -17,3 +17,16 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+/*function tabList (colonnes,siege){
+  let tab = [];
+  for (i=1; i<= colonnes; i++){
+    for(j=1; j <= siege; j++){
+      tab.push(i + "-" + j);
+    }
+  }
+  console.log(tab)
+  return tab
+}
+
+tabList (26, 100)
