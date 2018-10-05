@@ -17,3 +17,14 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const colonne = 26;
+let listeColonne = 0;
+const ligne = 100;
+let listeLigne = 0;
+
+function tableau(tab) {
+  for (i = 1; i <= colonne; i = i + 1)
+    for (j = 1; j <= ligne; j = j + 1) console.log(listeColonne);
+  console.log(listeLigne);
+}
