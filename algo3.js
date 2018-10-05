@@ -11,3 +11,11 @@ function fibo(num) {
     }
    return fib[num]
 }
+
+
+const fiboR = (n, x = 0, y = 1) => {
+    if (n > 0) {
+      n--  
+      return fiboR(n, y, x + y)
+    }
+  }
