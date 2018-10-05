@@ -1,24 +1,31 @@
+<!-- Déclaration HTML5 -->
 <!DOCTYPE HTML>
 <html>
     <head>
         <title>Grille d'images</title>
-        <meta charset="utf-8" />
+        <meta charset="utf-8" /> <!-- Spécification du jeu de caractères en UTF-8 (pour les accents français) -->
+        
+        <!-- Importation du css (bootstrap, fancybox et index.css) -->
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.css" />
         <link rel="stylesheet" type="text/css" href="./index.css" />
     </head>
 
     <body>
 
+        <!-- Contenaire occupant 100% de la largeur de la page -->
         <div class="container-fluid">
-            <div class="row">
+            <div class="row"> <!-- Crée d'une ligne unique -->
 
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-6 col-lg-3"> <!-- Spécifiaction des dimension de chaque "block-image" -->
+                    <!-- Code permettant de faire fonctionner fancybox (href = au src de la balise img) -->
                     <a data-fancybox="gallery" href="https://cdn.pixabay.com/photo/2015/09/16/20/10/dough-943245_960_720.jpg">
+                        <!-- Image à afficher-->
                         <img class="img-fluid" src="https://cdn.pixabay.com/photo/2015/09/16/20/10/dough-943245_960_720.jpg" alt="image-1" />
                     </a>
                 </div>
                 
+                <!-- Copié-Coller du block précédent en changeant url et texte alternatif de l'image -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <a data-fancybox="gallery" href="https://cdn.pixabay.com/photo/2014/10/22/16/38/ingredients-498199_960_720.jpg">
                         <img class="img-fluid" src="https://cdn.pixabay.com/photo/2014/10/22/16/38/ingredients-498199_960_720.jpg" alt="image-2" />
@@ -160,6 +167,7 @@
             </div>
         </div>
 
+        <!-- Importation des scripts js (jquery, bootstrap et fancybox) -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.js"></script>
