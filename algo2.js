@@ -18,10 +18,10 @@
 */
 
 const minMax = (numbers) => {
-	let min=0;
-	let max=0;
+	let min=numbers[0];
+	let max=numbers[0];
 	
-  for (let i = 0; i < numbers.length; i++) {
+  for (let i = 1; i < numbers.length; i++) {
     
 	  if (numbers[i]<min)
 	  {
