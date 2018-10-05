@@ -1,0 +1,9 @@
+.photo{
+    width: 300px;
+    height: 300px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
