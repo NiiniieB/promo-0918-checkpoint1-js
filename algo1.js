@@ -1,3 +1,16 @@
+function seatCount(column, nbSeats){
+  let list = []
+  for (let i=1; i <= column; i++){
+    for (let j=1; j <= nbSeats; j++){
+      list.push(i+"-"+j)
+    }
+  } 
+  return list
+}
+
+
+
+
 /*
 Un employé de théatre voudrait afficher la liste de tous les sièges présents dans sa salle principale.
 Dans la salle les sièges sont répartis de la manière suivantes : 
