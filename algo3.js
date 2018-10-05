@@ -5,5 +5,15 @@
 */
 
 function fibonacci(num) {
-  
+    let previewNumber = 0;
+    let theNumber = 1;
+  for (let i = 0; i < num ; i++) {
+      result = previewNumber + theNumber;
+      previewNumber = theNumber;
+      theNumber  = result;
+  }
+  return result
 }
+
+console.log(fibonacci(6));
+console.log(fibonacci(10));
