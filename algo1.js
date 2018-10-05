@@ -19,12 +19,13 @@ Au final la liste devra ressembler à :
 */
 
 
-function nbSiege(siege){
-  
-  for (let i = 0; i<27; i++){
-    for(let j = 0; j<101; j++){
+function nbSiege(){
+  array = []
+  for (let i = 1; i<=26; i++){
+    for(let j = 1; j<=100; j++){
+      array.push (i + "-"+ j);
     }
-  return siege = i + " - "+ j;
   }  
+  return array;
 }
 
