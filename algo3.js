@@ -4,6 +4,12 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
-}
+const fibonacci = (param) => {
+    const res = [0, 1];
+    for (let i = 1; i < param+1; i++) {
+      res[i + 1] = res[i] + res[i - 1]
+    }
+    return res[res.length - 1]
+    
+  }
+  console.log(fibonacci(6))
