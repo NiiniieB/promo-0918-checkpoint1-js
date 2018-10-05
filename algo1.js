@@ -1,6 +1,6 @@
 /*
 Un employé de théatre voudrait afficher la liste de tous les sièges présents dans sa salle principale.
-Dans la salle les sièges sont répartis de la manière suivantes : 
+Dans la salle les sièges sont répartis de la manière suivante : 
   - Il y a 26 colonnes de sièges, numérotés de "1" à "26"
   - Chaque colonne contient 100 sièges, numérotés de "1" à "100"
 
@@ -17,3 +17,17 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const calcul = () => {
+	let tab = []
+	for(i = 1; i < 27; i++) {
+		for(j = 1; j < 101; j++) {
+			tab.push(i + "-" + j)
+		}
+
+	}
+	return tab
+}
+
+console.log(calcul())
+
