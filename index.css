@@ -1,0 +1,41 @@
+.title{
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px chocolate, 0 0 30px lightblue, 0 0 40px lightcoral, 0 0 55px lightblue, 0 0 75px #ff8400;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+.title h1{
+    padding: 0.5em;
+}
+h2{
+    color: lightgray;
+    padding: 2%;
+}
+#picTittle {
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+#picTittle img {
+    width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+}
+
+#picTittle::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+}
+
+.picsFull {
+    height: 4px;
+    width: 6px;
+}
