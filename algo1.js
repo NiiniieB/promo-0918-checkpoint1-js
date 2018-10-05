@@ -17,3 +17,21 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const theatre = () => {
+
+let siege = 0;
+let colonne = 0;
+let tableau = [];
+
+  while(colonne < 26){
+    colonne +=1
+    siege = 0
+    while(siege < 100){
+      siege +=1
+      tableau.push(colonne + "-" + siege);
+    }     
+  }
+  return tableau;
+}
+console.log(theatre());
