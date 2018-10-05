@@ -5,5 +5,9 @@
 */
 
 function fibonacci(num) {
-  
+    let tab = [0, 1];
+    for (let i = 2; i <= num + 1; i++) {
+        tab.push(tab[i - 2] + tab[i - 1]);
+    }
+    return tab[num];
 }
