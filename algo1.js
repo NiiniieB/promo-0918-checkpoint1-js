@@ -17,8 +17,18 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
-var seat = [];
 
-for (var i = 1; i < 101; i++) {
-  array[i]
+let numberCol = 26; //max column
+let numberRow = 100;//max Row
+function seat(theater) {
+  var theater = [];
+  for (let i = 1; i < 26; i++) {
+    
+
+  }
+
+  for (let j = 1; j < 100; i++) {
+
+  }
+  return (i, j)
 }
