@@ -5,5 +5,12 @@
 */
 
 function fibonacci(num) {
-  
+    let number=[];
+    number[0]=0;
+    number[1]=1;
+
+    for (let i=2; i<(num+2); i++){
+        number[i]=number[i-1]+number[i-2];
+    }
+    return number[num+1];
 }
