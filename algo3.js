@@ -5,5 +5,11 @@
 */
 
 function fibonacci(num) {
-  
+  let result = 0;
+  if (num > 1) {
+    result += fibonacci(num - 1) + fibonacci(num - 2);
+  } else {
+    result += 1;
+  }
+  return result;
 }
