@@ -17,3 +17,21 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function algo(){
+  
+  let sieges = [];
+
+    for (let x = 1; x < 27; x++) { 
+      for (let y = 1; y < 101; y++) {     
+        sieges.push(x + '-' + y)        
+      }
+    }   
+
+  return sieges;
+  
+}
+
+const resultat = algo();
+
+console.log(resultat)
