@@ -17,3 +17,8 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+let seatArray = [];
+
+let SeatNumbers = () => {
+    for (let i = 0; i < )
+}
