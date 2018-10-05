@@ -1,0 +1,16 @@
+Q.1: master
+Q.2: git checkout 'X'
+Q.3: git clone
+Q.4: git status , git diff
+Q.5: git add -> git commit -> git push
+Q.6: root , /
+Q.7: nano , vi
+Q.8: ls
+Q.9: clear
+Q.10: mkdir , rmdir , rm
+Q.11: const myVar = 0 , let myVar = new Variable() , let myVar = []
+Q.12: i = i+5
+Q.13: 0
+Q.14: t1.length()
+Q.15: avec une bloucle 'for'
+Q.16: objet.propriété
