@@ -17,3 +17,14 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+const SupaSupaCoolFunctionButNotReallyCuzIsToSimple_____Function = () => {
+  unautretruc = []
+    for (let i=1; i < 27; i++){
+      for (let untruc= 1; untruc < 101; untruc ++){
+        unautretruc.push(`${i} - ${untruc}`)
+        
+      }
+    }
+    console.log(unautretruc)
+  }
+  SupaSupaCoolFunctionButNotReallyCuzIsToSimple_____Function()
