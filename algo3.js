@@ -4,6 +4,8 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
+function fibonacci(numN) {
+  if (i= numN.lenght)
+  return (i* numN.lenght)
+
 }
