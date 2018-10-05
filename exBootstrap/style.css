@@ -1,0 +1,9 @@
+.row img{
+
+    width:200px;
+    height:200px;
+    margin: 10px;
+    position: relative;
+    box-sizing: content-box;
+    display: block;
+}
