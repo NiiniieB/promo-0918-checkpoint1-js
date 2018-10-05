@@ -17,3 +17,13 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function siege() {
+  const tab = [];
+  for (let i=1;i<101;i++) {
+    for (let j=1;j<27;j++) {
+      tab[i][j] = i + '-' + j;
+    }
+  }
+  return tab;
+}
