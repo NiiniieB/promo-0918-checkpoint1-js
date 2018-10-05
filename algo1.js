@@ -17,3 +17,16 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+/*
+créer un tableau vide
+faire une boucle qui compte de 1 à 26
+à chaque fois on ajoute le numéro au tableau
+*/
+const myArray =[]  
+
+for (var i=1; i<=26; i++) {
+for (var j=1; j<=100; j++){
+myArray.push(i + "-"+ j)
+}
+}
+console.log (myArray)
