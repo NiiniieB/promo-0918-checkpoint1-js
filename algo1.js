@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function cinema(colonnes, sieges){
+  let liste = [];
+  for(let i= 1; i <= colonnes; i++){
+    for(let j=1; j <= sieges; j++){
+      liste.push(i + '-' + j);
+    }
+  }
+  return liste;
+}
+
+console.log(cinema(26, 100));
