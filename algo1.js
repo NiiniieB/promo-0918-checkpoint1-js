@@ -17,3 +17,28 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+/* Algo sans fonction :
+let sieges = 100;
+let colonnes = 26;
+let arr = [];
+for (let i = 1; i <= colonnes; i++) {
+  for (let j = 1; j <= sieges; j++) {
+    arr[0] = i;
+    arr[1] = j;
+    console.log(arr);
+  }
+}
+*/
+
+const listeSieges = (nbColonnes, nbSieges) => {
+  let arr = [];
+  for (let i = 1; i <= nbColonnes; i++) {
+    for (let j = 1; j <= nbSieges; j++) {
+      arr[0] = i;
+      arr[1] = j;
+      console.log(arr);
+    }
+  }
+}
+console.log(listeSieges(26, 100));
