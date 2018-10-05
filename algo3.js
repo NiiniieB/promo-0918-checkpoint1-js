@@ -5,5 +5,13 @@
 */
 
 function fibonacci(num) {
-  
+    
+    let tab = [0,1]
+
+    for (let i = 1; i < num +1; i++) {
+        tab.push(tab[i-1] + tab[i])
+        
+    }
+    return tab [num +1]
 }
+console.log(fibonacci(13))
