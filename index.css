@@ -1,0 +1,10 @@
+p {
+    color:green;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%
+}
