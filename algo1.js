@@ -17,3 +17,19 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+function remptab() {
+
+let array = [];
+  for (let i = 1; i < 27; i++) {
+    for (let x = 1; x < 11; x++){
+      array.push(i+'-'+x);
+    }
+    
+  }
+
+
+
+  return array;
+}
+
+console.log(remptab());
