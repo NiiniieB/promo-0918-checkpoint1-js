@@ -5,5 +5,11 @@
 */
 
 function fibonacci(num) {
-  
+    // Formule Fn = ( 1 / Math.sqrt(5) ) * ( Math.pow( (1 + Math.sqrt(5) ) / 2, n + 1 ) - Math.pow( (1 - Math.sqrt(5) ) / 2, num + 1) )
+    return ( 1 / Math.sqrt(5) ) * ( Math.pow( (1 + Math.sqrt(5) ) / 2, num + 1 ) - Math.pow( (1 - Math.sqrt(5) ) / 2, num + 1) );
 }
+
+console.log(
+    fibonacci(6),
+    fibonacci(10)
+    )
