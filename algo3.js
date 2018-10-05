@@ -5,5 +5,10 @@
 */
 
 function fibonacci(num) {
-  
+  let sequenceFibonacci = [0, 1];
+
+  for (let i = 2; i < num + 1; i++) {
+    sequenceFibonacci.push(sequenceFibonacci[i - 1] + sequenceFibonacci[i - 2]);
+  }
+  return sequenceFibonacci[num];
 }
