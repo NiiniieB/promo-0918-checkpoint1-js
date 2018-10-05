@@ -16,4 +16,10 @@ Au final la liste devra ressembler à :
 26-100
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
-*/
+*/let colonnes = 1;
+let siege = 1;
+for (i=0;i<26;i++){
+    for(i=1;i<100;i++){
+    }
+ console.log(colonnes + "." + siege)
+}
