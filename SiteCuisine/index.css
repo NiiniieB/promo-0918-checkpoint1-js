@@ -1,0 +1,18 @@
+/* police */
+@font-face {
+	font-family: "Open Sans",Times, serif, sans-serif;
+	src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+		   url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+   }
+
+ h1,h2{
+	font-family: "Open Sans";
+ }  
+/* Taille des images */
+.image {
+width: 100%;	
+}
+/* saut de ligne*/
+.brStyle {
+	margin-top:20px;
+}
