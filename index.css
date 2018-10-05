@@ -1,4 +1,9 @@
-img
+/*img
 {
     margin-bottom : 2%;
+}*/
+
+div[class*='col-']
+{
+    margin-bottom : 3%;
 }
