@@ -1,0 +1,11 @@
+header {
+    margin: 3rem 0;
+}
+
+.gallery div {
+    padding: 1rem;
+}
+
+img {
+    min-height: 100%;
+}
