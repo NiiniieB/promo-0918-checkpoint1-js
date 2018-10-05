@@ -1,5 +1,5 @@
 body{
-    background: rgb(216, 170, 170);
+    background: -webkit-linear-gradient(180deg, red, green, yellow, blue, orange);
 }
 img{
     width: 100%;
