@@ -3,7 +3,13 @@ $(document).ready(function(){
 
         loop:true,
         button:[
-            "zoom"
+            "zoom",
+            "share",
+            "slideShow",
+            "fullScreen",
+            "download",
+            "thumbs",
+            "close"
         ],
         animationEffect: "zoom"
     });
