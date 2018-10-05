@@ -18,11 +18,11 @@
 */
 
 function minMax(array) {
-  let min = 100;
+  let min = 0;
   let max = 0;
   let resultArray = [];
   for (let i=0; i<array.length; i++) {
-  if (array[i] <= min) {
+  if (min >= array[i]) {
   min = array[i];
   }
   if (array[i]>=max){
