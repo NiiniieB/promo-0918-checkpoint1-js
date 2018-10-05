@@ -17,18 +17,27 @@
 * Résultat : [7, 85]
 */
 
-var minMax = () => (array) => {
-  const min = 0;
-  const max = array[0];
+function minMax(array) {
+  let min = 100000;
+  let max = 0;
 
-  for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
+  for (let i = 1; i < array.length + 1; i++) {
+    if (array[i] < min) {
+      min = array[i];
     }
-    if (array[i] = max) {
+    if (array[i] > max) {
       max = array[i];
     }
-    return array;
   }
   array.push(min, max);
+  array.splice(0, array.length -2);
+
+  return array
 }
+
+/*const assert = require('assert')
+
+assert.strictEqual(minMax([4, 6, 35, -65, -9, 0, 67]), [-65, 67])
+assert.strictEqual(minMax([-30, 5, 43, 108, -5, -7, 89]), [-30, 108])
+assert.strictEqual(minMax([56, 7, 63, 9, 7, 12, 85]), [7, 85])*/
+
