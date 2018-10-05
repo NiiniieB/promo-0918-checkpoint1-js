@@ -5,5 +5,11 @@
 */
 
 function fibonacci(num) {
-  
+  let fibSequence = [1,1]
+
+  while (fibSequence.length < num+1) {
+      fibSequence.push(fibSequence[fibSequence.length-1]+fibSequence[fibSequence.length-2])
+  }
+
+  return fibSequence[fibSequence.length-1]
 }
