@@ -17,3 +17,11 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function chairCount(col, row){
+    for(let i = 1; i <= col; i++){
+        for(let j = 1; j <= row; j++){
+            console.log(i, j);
+        }
+    }
+} 
