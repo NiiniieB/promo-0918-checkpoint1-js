@@ -5,5 +5,11 @@
 */
 
 function fibonacci(num) {
-  
+  let fibo = [1, 2] 
+  for (let i = 1 ; i<num ; i++){
+    fibo[i+1] = fibo[i]+fibo[i-1]
+  }
+  return fibo[num-1]
 }
+
+fibonacci(6)
