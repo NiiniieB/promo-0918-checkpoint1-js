@@ -18,6 +18,7 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
+
 let sieges = new Array();
 for(let i=0 ; i<26 ; i++){
   for(let j=0 ; j<100 ; j++){
