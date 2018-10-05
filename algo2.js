@@ -22,7 +22,7 @@ var minMax = () => (array) => {
   const max = array[0];
 
   for (let i = 0; i < array.length; i++) {
-    if (array[i] < min) {
+    if (array[i] < +Infinity) {
       min = array;
     }
     if (array[i] = max) {
