@@ -17,25 +17,7 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
-// const colonnes = 26
-// const rangs = 100
-// let listeSieges = [[col]-[rang]]
 
-
-
-// places = (colonnes, rangs) => {
-
-//   let listeSieges = [[col],[rang]];
-
-//   for (let i = 0; i < colonnes; i++) {
-//     listeSieges[col[i]].push(i+1);
-//       for (let x = 0; i < rangs; x++) {
-//         listeSieges[i] = listeSieges[i]+"-"+x;
-        
-//       }  
-//   }
-// console.log(listeSieges)
-// }
 
 places = (colonnes, rangs) => {
   let listeSieges = new Array(colonnes);
@@ -48,12 +30,3 @@ places = (colonnes, rangs) => {
   console.log(listeSieges)
 }
 places(26,100)
-
-
-// const listeSieges = [colonnes];
-// for (i = 0; i < 4; i++) {
-//   listeSieges[i] = new Array(4);
-//   for (j = 0; j < 4; j++) {
-//     listeSieges[i][j] = "[" + i + "," + j + "]";
-//   }
-// }
