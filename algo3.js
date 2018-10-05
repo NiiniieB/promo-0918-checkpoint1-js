@@ -4,6 +4,13 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
+function fibonacci(numbers) {
+ let fibo = 0;
+ let i = 0;
+ for i in Range (fibo *2+1){
+     let i = 0
+    return fibo;
+
+ }
 }
+console.log(fibonacci(numbers))
