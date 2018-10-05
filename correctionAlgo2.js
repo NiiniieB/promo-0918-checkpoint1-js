@@ -1,5 +1,5 @@
 let tab = [87, -12, 0, 45, -2];
-function minMax(array) {
+var minMax = () => (array) => {
   let min = array[0];
   let max = array[0];
     let tab1 = [];
