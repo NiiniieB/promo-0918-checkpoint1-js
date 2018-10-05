@@ -1,0 +1,17 @@
+.titre-galerie,
+.cloture {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 1%;
+  font-family: fantasy;
+  font-size: 24px;
+}
+
+body {
+  background-color: beige;
+}
+.card {
+  padding: 0.5%;
+  border: none;
+  background-color: beige;
+}
