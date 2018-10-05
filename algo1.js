@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const listingSeat = () => {
+  let seatName = [];
+
+  for (let i = 0; i < 27; i++) {
+    for (let j =0 ; j < 101; j++) {
+      // seatName[i] = seatName[i] + seatName[j];
+      seatName.push(`${i} - ${j}`)
+    }
+  }
+  return seatName
+}
