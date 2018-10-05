@@ -18,15 +18,19 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 function seatList(nbSeatByColumn, nbColumns) {
-
-  for (let y = 1 ; y < nbColumns +1 ; y++) {
-    let numberColumn = y ;
-    
+let result = [];
+  for (let y = 1 ; y < nbColumns+1 ; y++){
+    let totalColomn = y ;
     for (let i = 1 ; i < nbSeatByColumn+1 ; i++) {
        let totalSeatColumn = i;
-       console.log(numberColumn.toString() + totalSeatColumn.toString());
+
+       result.push(totalColomn.toString() +"-"+ totalSeatColumn.toString());
     }
   }
+  
+  return result;
 }
 
-seatList(100, 26)
+console.log(seatList(100, 26));
+
+//*mince j'était a deux doigt" *//
