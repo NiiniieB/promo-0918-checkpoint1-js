@@ -17,3 +17,17 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+const colonnesSieges=(26)
+const Sièges=(100)
+creer un tableau colonnes avec 26 colonnes
+creer un tableau Sièges avec 100 colonnessieges
+
+lire l'indice 1 du tableau colonnes 
+et lire l'indice 1 du tableau Sièges et ajouter 1 a chaque passage jusqu'a 100
+
+lire l'indice 2 du tableau colonnes 
+et lire l'indice 1 du tableau Sièges et ajouter 1 a chaque passage jusqu'a 100
+
+ainsi de suite jusqu'a ce que le tableau colonnes arrive a 26
+
+
