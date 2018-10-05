@@ -5,5 +5,18 @@
 */
 
 function fibonacci(num) {
-  
+	let x = 1;
+	let y = 0; 
+	let z;
+
+  	while (num >= 0){
+    		z = x;
+    		x = x + y;
+    		y = z;
+    		num--;
+  	}
+
+  	return y;
 }
+
+console.log(fibonacci(10));
