@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+}
+
+.style {
+    margin-top: 50px;
+    
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: 5px solid black;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    img {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+    img {
+        width: 570px;
+        height: 340px;
+    } 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+    img {
+        width: 425px;
+        height: 285px;
+    } 
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+   img {
+       width: 280px;
+       height: 185px;
+   } 
+}
