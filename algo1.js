@@ -20,14 +20,13 @@ Au final la liste devra ressembler à :
 
 const printSeat = () => {
   let result = [];
-  let dash = '-'
 
   for (let i = 1; i < 27; i++){
     for (let j = 1; j < 101; j++){
-      result.push([i,j]);
+      result.push([i + "-" + j]);
     }
   }
-console.log(result);
+return result;
 }
 
 printSeat();

@@ -4,14 +4,22 @@
 * Ex: fibo(10) // return 89;
 */
 
-0  1  2  3  4  5  6
-
-1, 1, 2, 3, 5, 8, 13;
-
 const fibonacci = (num) => {
-  for (let i = 2, i < num; i++){
-    
+
+  if(num < 0){
+    console.log("Error : index must be greater than zero !");
   }
 
+else{
 
+  let array = [1, 1];
+
+  for (let i = 2; i < num + 1; i++){
+    let nextNb = array[i - 1] + array[i - 2];
+    array.push(nextNb);
+  }
+  return array.pop()
+  }
 }
+
+fibonacci(10);
