@@ -8,7 +8,7 @@
 
 function fibonacci(num) {
 
-    var firstNum = 1,
+    let firstNum = 1,
         secondNum = 1,
         next = 1;
 
