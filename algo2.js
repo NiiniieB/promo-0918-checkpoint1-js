@@ -16,7 +16,7 @@
 * Tableau d'entrée : [56, 7, 63, 9, 7, 12, 85]
 * Résultat : [7, 85]
 */
-
+/*
 var minMax = () => (array) => {
   const min = 0;
   const max = array[0];
@@ -32,3 +32,9 @@ var minMax = () => (array) => {
   }
   array.push(min, max);
 }
+*/
+
+let array1 = [1, 6, 8, -2, 25, 10, -6, 4,];
+
+console.log(Math.max(...array1));
+console.log (Math.min (...array1));
