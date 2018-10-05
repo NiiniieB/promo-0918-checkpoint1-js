@@ -4,6 +4,19 @@
 * Ex: fibo(10) // return 89;
 */
 
+
+
 function fibonacci(num) {
-  
-}
+
+    var firstNum = 1,
+        secondNum = 1,
+        next = 1;
+
+    for (let i = 2; i <= num; i++) {
+        next = firstNum + secondNum;
+        firstNum = secondNum;
+        secondNum = next;
+    }
+    return next;
+};
+console.log(fibonacci(6));
