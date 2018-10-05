@@ -17,3 +17,14 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+const countChairs = (nbCol, chairsPerCol) => {
+  let chairsArr = [];
+  for (let col = 1; col <= nbCol; col++){
+    for (let chair = 1; chair <= chairsPerCol; chair++){
+      chairsArr.push(`${col}-${chair}`);
+    } 
+  }
+  return chairsArr;
+}
+
+console.log(countChairs(1,0));
