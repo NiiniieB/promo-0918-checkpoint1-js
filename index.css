@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+}
+
+img {
+	max-height: 12rem;
+	margin: 0.5rem  0rem;
+}
+
+.col-lg-3 {
+	display: flex;
+	justify-content: center;
+}
