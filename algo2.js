@@ -40,7 +40,6 @@ function minMax(array){
 
 // ======================TEST=====================
 
-// console.log( minMax( [56, 7, 63, 9, 7, 12, 85]) );
-// console.log( minMax( [56, 7, 63, 9, 7, 12, 85]) );
-// console.log( minMax( [56, 7, 63, 9, 7, 12, 85]) );
+// console.log( minMax( [4, 6, 35, -65, -9, 0, 67] ) );
+// console.log( minMax( [-30, 5, 43, 108, -5, -7, 89] ) );
 // console.log( minMax( [56, 7, 63, 9, 7, 12, 85]) );
