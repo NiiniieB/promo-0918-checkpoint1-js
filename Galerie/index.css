@@ -1,0 +1,16 @@
+  *{
+     margin: 0;
+     padding: 0;
+ }
+ .alert{
+     text-align: center;
+ }
+ /* .col{
+     border: 1px solid black;
+ } */
+/* 
+ @media (min-width: 30em) and (max-width: 50em) { ... }
+    .mes-images{
+      width: 100%;
+    }
+  } */ */
