@@ -5,5 +5,11 @@
 */
 
 function fibonacci(num) {
-  
-}
+    const fiboTab = [1,1];
+    if (num > 1) {
+        for (let i = 2; i <= num; i++) {
+            fiboTab[i] = fiboTab[i-1] + fiboTab[i-2];
+        }
+    }
+    return(fiboTab[num]);
+};
