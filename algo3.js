@@ -4,6 +4,14 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
+const fib= (n) => {
+  const res = [0,1]
+  for (let i = 1; i <= n; i++) {
+    res.push(res[i-1]+res[i]);
+  }
+  return res[n+1];
 }
+
+console.log(fib(10));
+
+    
