@@ -5,5 +5,17 @@
 */
 
 function fibonacci(num) {
-  
+    let a = 1;
+    let b = 0;
+    let temp;
+
+    for(let i = 0; i <= num; i++){
+        temp = a;
+        a = a + b;
+        b = temp;
+    }
+        return b;
 }
+
+console.log(fibonacci(10));
+console.log(fibonacci(6));
