@@ -4,6 +4,15 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
+const suiteDeFibonnaci = () => {
+    let suiteF = [1,1];
+    for (let i=1;i<101;i++) {
+        suiteF.push(suiteF[i] + suiteF[i-1]);
+    }
+    return suiteF;
 }
+
+const fibonacci = (num) => suiteDeFibonnaci()[num];
+
+console.log(fibonacci(6));
+console.log(fibonacci(10));
