@@ -4,6 +4,15 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
-  
+const fibo = (num) => {
+    let a = 1
+    let b = 0
+    let temp
+    while (num >= 0){
+        temp = a
+        a = a + b;
+        b = temp;
+        num--;
+    }
+    return b
 }
