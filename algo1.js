@@ -19,11 +19,15 @@ Au final la liste devra ressembler à :
 */
 
 const afficheSieges = (col,row) => {
+    const tableau = [];
+    
     for(let i = 1; i <= col; i++) {
         for (let j = 1; j <= row; j++) {
-            console.log(`${i}-${j}`);
+            tableau.push(`${i}-${j}`);
         }
     }
+
+    return(tableau);
 }
 afficheSieges(26,100);
 
