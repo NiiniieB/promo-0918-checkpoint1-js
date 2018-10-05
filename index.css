@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+}
+
+.img-fluid {
+    border-radius: 1em;
+    padding : 0.5em;
+}
