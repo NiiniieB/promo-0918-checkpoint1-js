@@ -17,3 +17,16 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const countNbOfSeats = () => {
+  let seats = [];
+  for (let i=1; i <= 26; i++) {
+    for (let k=1; k <= 100; k++) {
+      seats.push(`${i}-${k}`);
+    }
+  }
+  return seats;
+}
+
+console.log(countNbOfSeats());
+console.log(countNbOfSeats()[countNbOfSeats().length - 1]);
