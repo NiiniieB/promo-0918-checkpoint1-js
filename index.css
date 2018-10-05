@@ -1,0 +1,23 @@
+.col-sm-6.col-md-6.col-lg-3 {
+
+    padding : 0;
+    height : 60vh;
+    width : 100%;
+
+}
+
+
+
+img {
+    padding:0;
+    height : 60vh;
+    width : 100%;
+    transition: all 0.2s linear;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+
+
