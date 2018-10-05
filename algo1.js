@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const listeSiege = () =>{
+    let tab = [];
+
+for (colonnes=1; colonnes<27; colonnes++){
+        for (sieges=1; sieges<101; sieges++){
+                tab.push(`${colonnes}-${sieges}`)
+        }
+    }
+    return tab;
+}
+console.log(listeSiege());
