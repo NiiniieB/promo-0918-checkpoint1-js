@@ -5,5 +5,15 @@
 */
 
 function fibonacci(num) {
-  
+  let a = 1;
+  let b = 0;
+  let number;
+
+  while (num >= 0) {
+    number = a;
+    a = a + b;
+    b = number;
+    num--;
+  }
+  return b;
 }
