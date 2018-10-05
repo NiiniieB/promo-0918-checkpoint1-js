@@ -17,29 +17,29 @@
 * Résultat : [7, 85]
 */
 
-var minMax = (array) => {
+var minMax = (array) => { // Déclaration de la fonction minMax en notation es6
 
-  let min = array[0];
+  let min = array[0]; // Initialisation de min et max à la premiere valeur du tableau
   let max = array[0];
-  let resArray = [];
+  let resArray = []; // Création du tableau de retour vide
 
-  for (let i = 0; i <= array.length - 1; i++) 
+  for (let i = 0; i <= array.length - 1; i++) // Pour chaque case du tableau array (passé en paramètre)
   {
-    if (array[i] < min)
-      min = array[i];
+    if (array[i] < min) // Si la valeur courante est inférieur à la valeur minimum déjà calculée
+      min = array[i]; // Alors min deviens la valeur courante
 
-    if (array[i] > max)
-      max = array[i];
+    if (array[i] > max) // Si la valeur courante est supérieur à max
+      max = array[i]; // Alors on affecte la valeur courante à max
   }
 
-  resArray.push(min, max);
+  resArray.push(min, max); // On ajoute au tableau de retour les valeurs min et max précédement trouvées
 
-  return resArray;
+  return resArray; // On retourne le tableau
 };
 
-let tabTest = [-5, 9, 50, 100, 128, 69, -22, 23, 1235, 64, -33];
+let tabTest = [-5, 9, 50, 100, 128, 69, -22, 23, 1235, 64, -33]; // Création d'un tableau afin de tester la fonction
 
-let min = minMax(tabTest)[0];
-let max = minMax(tabTest)[1];
+let min = minMax(tabTest)[0]; // Récupération du min
+let max = minMax(tabTest)[1]; // Récupération du max
 
-console.log(min + " & " + max);
+console.log(min + " & " + max); // Affichage des deux valeurs

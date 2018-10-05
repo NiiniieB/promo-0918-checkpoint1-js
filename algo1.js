@@ -20,18 +20,18 @@ Au final la liste devra ressembler à :
 
 function numSiege()
 {
-  let tab = new Array();
+  let tab = []; // Tableau de retour vide
 
-  for (let col=1 ; col <= 26 ; col++)
-    for (let siege=1 ; siege <= 100 ; siege++)
-      tab.push(col + "-" + siege);
+  for (let col=1 ; col <= 26 ; col++) // Pour chaque colonne (variable col)
+    for (let siege=1 ; siege <= 100 ; siege++) // Pour chaque siege (variable siege)
+      tab.push(col + "-" + siege); // Ajout au tableau (tab) la colonne et le siege
 
-  return tab;
+  return tab; // Retourne le tableau précédement remplit
 }
 
-let sieges = numSiege();
+const sieges = numSiege(); // Appel de la fonction et stockage du résultat dans la variable sieges
 
 //console.log(sieges);
 
-for (let i=0 ; i < sieges.length ; i++)
-  console.log(sieges[i]);
+for (let i=0 ; i < sieges.length ; i++) // Pour chaque index du tableau sieges
+  console.log(sieges[i]); // On affiche chaque valeur
