@@ -19,11 +19,13 @@ Au final la liste devra ressembler à :
 */
 
 const count = () => {
-	for(let i = 0; i < 27; i++){
-		for(let j = 0; j < 101; j++){
-			console.log(i + "-" + j);
+	let res = [];
+	for(let i = 1; i <= 26; i++){
+		for(let j = 1; j <= 100; j++){
+			res.push(`${i} - ${j}`);
 		}
 	}
+	return res;
 }
 
-count();
+console.log(count());
