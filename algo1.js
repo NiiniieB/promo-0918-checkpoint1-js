@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function sitlist(col, rangée) {
+  let arr = []
+  for (let i =1 ; i <= col; i++){
+    for (let j =1; j<= rangée; j++){
+      arr.push(i+"-"+j)
+    }
+  }
+  return arr
+  
+}
+sitlist(26, 100)
