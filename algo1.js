@@ -17,3 +17,13 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function Retourtableau() {
+  let monTableau = newArray();
+  let rangée = 0;
+  let NumSiège = 0;
+  for (let i = 1; i <= 100; i++) {
+    rangée = rangée + 1;
+    NumSiège = rangée + "-" + i;
+  }
+}
