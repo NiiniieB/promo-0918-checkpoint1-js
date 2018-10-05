@@ -17,18 +17,21 @@
 * Résultat : [7, 85]
 */
 
-var minMax = () => (array) => {
-  const min = 0;
-  const max = array[0];
+Array.prototype.max = function() {
+  return Math.max.apply(null, this);
+};
 
-  for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
-    }
-    if (array[i] = max) {
-      max = array[i];
-    }
-    return array;
-  }
-  array.push(min, max);
-}
+Array.prototype.min = function() {
+  return Math.min.apply(null, this);
+};
+
+let stringNumbers = "4, 4, 35, -65, -9, 0, 67";
+
+let arrayNumbers = stringNumbers.split(" ");
+
+alert(
+  "Highest number: " +
+    arrayNumbers.max() +
+    "\n Lowest number: " +
+    arrayNumbers.min()
+);
