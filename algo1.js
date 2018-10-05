@@ -30,5 +30,3 @@ const seatNumber = () => {
 	}
 	return array;
 }
-
-console.log(seatNumber());
