@@ -17,6 +17,34 @@
 * Résultat : [7, 85]
 */
 
+let minMax = (array) => {
+  let min = Infinity;
+  let max = -Infinity;
+  let tbl = [];
+
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
+    }
+    if (array[i] > max) {
+      max = array[i];
+    }
+  }
+  tbl.push(min, max)
+  console.log(tbl)
+}
+
+let arr1 = [4, 6, 35, -65, -9, 0, 67]
+minMax(arr1)
+
+let arr2 = [-30, 5, 43, 108, -5, -7, 89]
+minMax(arr2)
+
+let arr3 = [56, 7, 63, 9, 7, 12, 85]
+minMax(arr3)
+
+
+/* SOURCE CODE
 var minMax = () => (array) => {
   const min = 0;
   const max = array[0];
@@ -32,3 +60,4 @@ var minMax = () => (array) => {
   }
   array.push(min, max);
 }
+*/

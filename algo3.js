@@ -5,5 +5,18 @@
 */
 
 function fibonacci(num) {
-  
+	let a = 1;
+	let b = 0;
+
+  while (num >= 0){
+    let tempo = a;
+    a = a + b;
+    b = tempo;
+    num--;
+  }
+
+return b;
 }
+
+console.log(fibonacci(6))
+console.log(fibonacci(10))
