@@ -1,0 +1,17 @@
+.galery-title {
+    font-family: 'Leckerli One', cursive;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+@media (max-width: 575.98px) {
+    .galery-title {
+        font-family: 'Leckerli One', cursive;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    } 
+}
