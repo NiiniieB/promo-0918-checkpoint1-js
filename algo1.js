@@ -17,3 +17,11 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function nbSieges(col, siege){
+  for (let i = 1; i < 27; i++); {
+    for (let j = 1; i < 101; i++);}
+  return i + "-" + j;
+  
+}
+console.log(nbSieges)
