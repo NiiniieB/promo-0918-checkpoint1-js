@@ -4,6 +4,16 @@
 * Ex: fibo(10) // return 89;
 */
 
-function fibonacci(num) {
+function fibonacci(num){
+    let a = 1;
+    let b = 0;
+    let temp = 0
   
-}
+    for(let i = num; i >=0; i--){ 
+      temp = a;
+      a = a + b;
+      b = temp;
+    }
+  
+    return b;
+  }
