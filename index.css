@@ -2,8 +2,17 @@ a img{
     height: auto;
     width:100%;
     margin:0 auto;
-    margin-top: 10px
+    margin-top: 10px;
+    opacity: 0.5;
+    transition: all 0.5s;
 }
+
 a {
     margin-bottom:25px;
+}
+
+a:hover img{
+    opacity: 1;
+    border:2px solid black;
+    border-radius:10px;
 }
