@@ -5,5 +5,10 @@
 */
 
 function fibonacci(num) {
-  
+  for(var fibArray = [0], i=0,j=1,k=0 ; k < num ; i=j,j=x,k++){
+    x=i+j;
+    fibArray.push(x);
 }
+console.log(fibArray[fibArray.length-1]);
+}
+fibonacci(10)
