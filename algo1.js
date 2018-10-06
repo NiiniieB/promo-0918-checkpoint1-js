@@ -17,3 +17,15 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+var theatre = () => {
+  let columns = 26
+  let seats = 100
+  for (let i = 1; i <= columns; i++) {
+    for (let n = 1; n <= seats; n++) {
+      console.log((i) + "-" + (n))
+    }
+  }
+}
+
+console.log(theatre())
