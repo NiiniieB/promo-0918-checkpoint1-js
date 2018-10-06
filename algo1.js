@@ -19,9 +19,9 @@ Au final la liste devra ressembler à :
 */
 function chairOfTheatre (){
 	let myListe = [];
-	for (let i = 0; i <= 26; i++){
-		for (let j = 0; j <=100 ; i++) {
-			myListe[i] = myListe[j]+"-"+ myListe[j+1] ;
+	for (let i = 1; i <= 26; i++){
+		for (let j = 1; j <=100 ; j++) {
+			myListe.push(1+"-"+j);
 		}
 
 	}

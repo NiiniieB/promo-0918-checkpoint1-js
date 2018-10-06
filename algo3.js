@@ -5,14 +5,10 @@
 */
 
 function fibonacci(num){
-	let resultFibo = 0;
-	if (num < 2){
-	 return num	
-	}else{
-		resultFibo = fibonacci(n-2) + fibonacci(n-1);
-	 return resultFibo;
+	if (num <= 1){
+	 return 1;	
 	}
-
+	return fibonacci(num-2) + fibonacci(num-1);
 }
 
-console.log(fibonacci(12));
+console.log(fibonacci(6));
