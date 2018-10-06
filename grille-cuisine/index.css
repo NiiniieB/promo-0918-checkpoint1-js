@@ -1,9 +1,16 @@
-.row {
-    /* margin-left: 10%; */
-    
+
+.container {
+    margin-top: 5%;
 }
+
+.col-12 {
+    max-width : 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
 body {
-    background: black;
+    background: #F9F9F9;
 }
 
 
@@ -11,8 +18,10 @@ body {
 .shape {
     max-width : 100%;
     heigth: auto; 
-    margin: 5%;
-    padding:2%;
+    margin: 5%; 
+    /* padding:2%; */
     display: block;
-    
-}
+    border-bottom: 0 none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+  
+    }
