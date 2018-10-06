@@ -22,7 +22,7 @@ Au final la liste devra ressembler à :
 let colonne = 26;
 let siege = 100;
 const theatre =() => {
-tab = []
+let tab = []
   for (let i=1; i<colonne+1; i++){
     for (let j=1; j<siege+1; j++){
       tab.push (i +'-'+j)
