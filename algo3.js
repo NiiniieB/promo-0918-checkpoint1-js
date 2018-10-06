@@ -5,5 +5,15 @@
 */
 
 function fibonacci(num) {
-  
+  const suite = [1, 1];
+  for (let i = 1; i <1000 ; i++){
+      let valeurSuivante = suite[i] + suite [i-1];
+      suite [i+1] = valeurSuivante;
+      suite.push(suite[i]);
+  }
+  let nbToFind = suite [num];
+  return suite[num];
 }
+
+
+console.log(fibonacci(6));
