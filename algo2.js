@@ -30,7 +30,6 @@ function minMax(array) {
     }
   }
   arr2 = [min, max];
-  console.log(arr2);
   return arr2;
 }
 minMax()

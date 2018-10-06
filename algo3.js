@@ -16,4 +16,4 @@ let temp;
     }
     return nb2;
 }
-console.log(fibonacci(6));
+fibonacci(6);

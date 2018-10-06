@@ -18,10 +18,13 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
-function allSeat(arr1,arr2) {
+function allSeat(col,seat) {
   let arr3 = [];
-
-  
-
-  
+  for (let i =1; i<=col; i++){
+    for (let j =1; j <= seat; j++){
+      arr3.push( i +'-'+ j);  
+    }
+  }
+  return arr3;
 }
+allSeat();
