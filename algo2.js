@@ -16,19 +16,26 @@
 * Tableau d'entrée : [56, 7, 63, 9, 7, 12, 85]
 * Résultat : [7, 85]
 */
+const arr1 = [4, 6, 35, -65, -9, 0, 67];
+const arr2 = [-30, 5, 43, 108, -5, -7, 89];
+const arr3 = [56, 7, 63, 9, 7, 12, 85]
 
-var minMax = () => (array) => {
-  const min = 0;
-  const max = array[0];
+function minMax(array) {
+  let min = array[0];
+  let max = array[0];
+  const result = []
 
-  for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
-    }
-    if (array[i] = max) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] <= min) {
+      min = array[i];
+    }else if (array[i] >= max) {
       max = array[i];
     }
-    return array;
   }
-  array.push(min, max);
+  result.push(min, max);
+  console.log(result)
 }
+
+minMax(arr1);
+minMax(arr2);
+minMax(arr3);
