@@ -1,0 +1,405 @@
+{
+    "nom": "Checkpoint 1 - JS",
+    "questions": [
+        {
+            "question": "[GIT] Comment s'appelle la branche principale de GIT par défaut ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "default"
+                },
+                {
+                    "position": "b",
+                    "nom": "remote"
+                },
+                {
+                    "position": "c",
+                    "nom": "main"
+                },
+                {
+                    "position": "d",
+                    "nom": "master"
+                },
+                {
+                    "position": "e",
+                    "nom": "dev"
+                }
+            ]
+        },
+        {
+            "question": "[GIT] Comment changer de branche sous GIT ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "git branche 'X'"
+                },
+                {
+                    "position": "b",
+                    "nom": "git checkout -b 'X'"
+                },
+                {
+                    "position": "c",
+                    "nom": "git branch 'X'"
+                },
+                {
+                    "position": "d",
+                    "nom": "git checkout 'X'"
+                },
+                {
+                    "position": "e",
+                    "nom": "git add 'X'"
+                }
+            ]
+        },
+        {
+            "question": "[GIT] Comment puis-je récupérer un projet complet déjà présent sur un repository distant ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "git clone"
+                },
+                {
+                    "position": "b",
+                    "nom": "git fetch"
+                },
+                {
+                    "position": "c",
+                    "nom": "git merge"
+                },
+                {
+                    "position": "d",
+                    "nom": "git init"
+                },
+                {
+                    "position": "e",
+                    "nom": "git add"
+                }
+            ]
+        },
+        {
+            "question": "[GIT] Comment vérifier l'état de votre répertoire local depuis le dernier commit ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "git check"
+                },
+                {
+                    "position": "b",
+                    "nom": "git status"
+                },
+                {
+                    "position": "c",
+                    "nom": "git commit"
+                },
+                {
+                    "position": "d",
+                    "nom": "git checkout"
+                },
+                {
+                    "position": "e",
+                    "nom": "git diff"
+                }
+            ]
+        },
+        {
+            "question": "[GIT] Quels est le bon ordre d'éxécution afin de partager une version de code sur Github ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "git commit -> git branch -> git push"
+                },
+                {
+                    "position": "b",
+                    "nom": "git add -> git commit -> git push"
+                },
+                {
+                    "position": "c",
+                    "nom": "git commit -> git add -> git push"
+                },
+                {
+                    "position": "d",
+                    "nom": "git push -> git commit -> git add"
+                },
+                {
+                    "position": "e",
+                    "nom": "git checkout -> git push -> git add"
+                }
+            ]
+        },
+        {
+            "question": "[UNIX] Comment se nomme la racine des dossiers ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": ":"
+                },
+                {
+                    "position": "b",
+                    "nom": "/"
+                },
+                {
+                    "position": "c",
+                    "nom": "\\"
+                },
+                {
+                    "position": "d",
+                    "nom": "root"
+                },
+                {
+                    "position": "e",
+                    "nom": "home"
+                }
+            ]
+        },
+        {
+            "question": "[UNIX] Quelles sont les commandes de base permettant d'éditer un fichier ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "cat"
+                },
+                {
+                    "position": "b",
+                    "nom": "edit"
+                },
+                {
+                    "position": "c",
+                    "nom": "vi"
+                },
+                {
+                    "position": "d",
+                    "nom": "pwd"
+                },
+                {
+                    "position": "e",
+                    "nom": "nano"
+                }
+            ]
+        },
+        {
+            "question": "[UNIX] Avec quelle commande peut-on lister les processus ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "ls"
+                },
+                {
+                    "position": "b",
+                    "nom": "pwd"
+                },
+                {
+                    "position": "c",
+                    "nom": "ps"
+                },
+                {
+                    "position": "d",
+                    "nom": "cat"
+                },
+                {
+                    "position": "e",
+                    "nom": "pid"
+                }
+            ]
+        },
+        {
+            "question": "[UNIX] Comment effacer l'écran de son terminal ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "wipe"
+                },
+                {
+                    "position": "b",
+                    "nom": "clear"
+                },
+                {
+                    "position": "c",
+                    "nom": "clean"
+                },
+                {
+                    "position": "d",
+                    "nom": "cls"
+                },
+                {
+                    "position": "e",
+                    "nom": "erase"
+                }
+            ]
+        },
+        {
+            "question": "[UNIX] Quelles commandes permettent d'ajouter ou de supprimer un répertoire ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "rm"
+                },
+                {
+                    "position": "b",
+                    "nom": "mkdir"
+                },
+                {
+                    "position": "c",
+                    "nom": "make"
+                },
+                {
+                    "position": "d",
+                    "nom": "cd"
+                },
+                {
+                    "position": "e",
+                    "nom": "rmdir"
+                }
+            ]
+        },
+        {
+            "question": "[ES6] Comment déclarer une variable en Javascript ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "const myVar = 0"
+                },
+                {
+                    "position": "b",
+                    "nom": "var = myVar"
+                },
+                {
+                    "position": "c",
+                    "nom": "let myVar []"
+                },
+                {
+                    "position": "d",
+                    "nom": "let myVar = new Variable()"
+                },
+                {
+                    "position": "e",
+                    "nom": "let myVar = []"
+                }
+            ]
+        },
+        {
+            "question": "[ES6] Quel est l'équivalent de i += 5 ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "i = 5"
+                },
+                {
+                    "position": "b",
+                    "nom": "i + 5"
+                },
+                {
+                    "position": "c",
+                    "nom": "i = i + 5"
+                },
+                {
+                    "position": "d",
+                    "nom": "i > 5"
+                },
+                {
+                    "position": "e",
+                    "nom": "Ça n'existe pas en Javascript"
+                }
+            ]
+        },
+        {
+            "question": "[ES6] Quelle est la valeur de 'count' après cette instruction : 'let count = 10; count %= 5;' ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "5"
+                },
+                {
+                    "position": "b",
+                    "nom": "2"
+                },
+                {
+                    "position": "c",
+                    "nom": "0"
+                },
+                {
+                    "position": "d",
+                    "nom": "10"
+                },
+                {
+                    "position": "e",
+                    "nom": "undefined"
+                }
+            ]
+        },
+        {
+            "question": "[ES6] De quelle façon peut-on récupérer le nombre d'éléments d'un tableau t1 ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "t1.count()"
+                },
+                {
+                    "position": "b",
+                    "nom": "t1.length()"
+                },
+                {
+                    "position": "c",
+                    "nom": "count(t1)"
+                },
+                {
+                    "position": "d",
+                    "nom": "t1.length"
+                },
+                {
+                    "position": "e",
+                    "nom": "t1[0]"
+                }
+            ]
+        },
+        {
+            "question": "[ES6] Comment peut-on parcourir un tableau en Javascript ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "Avec une boucle 'for'"
+                },
+                {
+                    "position": "b",
+                    "nom": "Avec un 'switch/case'"
+                },
+                {
+                    "position": "c",
+                    "nom": "Avec une fonction 'filter'"
+                },
+                {
+                    "position": "d",
+                    "nom": "Avec une boucle 'while'"
+                },
+                {
+                    "position": "e",
+                    "nom": "On ne peut pas parcourir de tableau nativement en Javascript"
+                }
+            ]
+        },
+        {
+            "question": "[ES6] Comment accède-t-on à une propriété d'un objet ?",
+            "reponses": [
+                {
+                    "position": "a",
+                    "nom": "objet.propriete"
+                },
+                {
+                    "position": "b",
+                    "nom": "objet[1]"
+                },
+                {
+                    "position": "c",
+                    "nom": "objet.length"
+                },
+                {
+                    "position": "d",
+                    "nom": "objet['propriete']"
+                },
+                {
+                    "position": "e",
+                    "nom": "console.log(objet)"
+                }
+            ]
+        }
+    ]
+}

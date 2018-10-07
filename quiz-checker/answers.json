@@ -1,0 +1,66 @@
+[
+  {
+    "question": 1,
+    "correctAnswers": ["d"]
+  },
+  {
+    "question": 2,
+    "correctAnswers": ["d"]
+  },
+  {
+    "question": 3,
+    "correctAnswers": ["a"]
+  },
+  {
+    "question": 4,
+    "correctAnswers": ["b"]
+  },
+  {
+    "question": 5,
+    "correctAnswers": ["b"]
+  },
+  {
+    "question": 6,
+    "correctAnswers": ["b"]
+  },
+  {
+    "question": 7,
+    "correctAnswers": ["c","e"]
+  },
+  {
+    "question": 8,
+    "correctAnswers": ["c"]
+  },
+  {
+    "question": 9,
+    "correctAnswers": ["b"]
+  },
+  {
+    "question": 10,
+    "correctAnswers": ["a","b","e"]
+  },
+  {
+    "question": 11,
+    "correctAnswers": ["a","e"]
+  },
+  {
+    "question": 12,
+    "correctAnswers": ["c"]
+  },
+  {
+    "question": 13,
+    "correctAnswers": ["c"]
+  },
+  {
+    "question": 14,
+    "correctAnswers": ["d"]
+  },
+  {
+    "question": 15,
+    "correctAnswers": ["a","c","d"]
+  },
+  {
+    "question": 16,
+    "correctAnswers": ["a","d"]
+  }
+]
