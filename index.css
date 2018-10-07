@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+body {
+   background-color: pink; 
+}
+
+@media (max-width: 576px) {
+.ecart {}
+    margin-top: 30px;
+   }
+img {
+    margin-top: 30px;
+    border: solid red 5px;
+}
