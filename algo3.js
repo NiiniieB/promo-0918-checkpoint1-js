@@ -5,5 +5,16 @@
 */
 
 function fibonacci(num) {
-  
+  let a = 0;
+  let b = 1;
+  let temp = 0;
+
+  for(i=0; i<num; i++) {
+    temp = b;
+    b = b + a;
+    a = temp;
+  }
+  return b;
 }
+let test = fibonacci(10)
+console.log(test)
