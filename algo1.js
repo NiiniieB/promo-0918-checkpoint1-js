@@ -17,7 +17,10 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
-function retourTableau (){
-	let tableau = new Array()
+function nombreSiege (){
+	for (i=0; i <= 26; i++)
+		for (j=0; j <= 100; j++)
+	console.log(i +"-"+ j)
+	}
 
-}
+return nombreSiege();
