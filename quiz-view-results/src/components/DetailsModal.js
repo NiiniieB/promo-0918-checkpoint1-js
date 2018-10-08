@@ -20,7 +20,6 @@ const DetailsModal = ({ student, onModalClose }) => {
             { student && <StudentAnswers student={student} /> }
           </div>
           <div className="modal-footer">
-            <button type="button" className="btn btn-primary">Save changes</button>
             <button onClick={onModalClose} type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>

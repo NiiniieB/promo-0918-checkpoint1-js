@@ -1,13 +1,15 @@
 #!/usr/local/bin/node
 
 // Requires bluebird and nodegit
-const Git = require('nodegit')
 const fs = require('fs')
 const path = require('path')
+const {exec} = require('child_process')
+const Git = require('nodegit')
 const Promise = require('bluebird')
 
 // Promisify fs
 Promise.promisifyAll(fs)
+const execAsync = Promise.promisify(exec)
 
 // const formatTestResults = require('./formatTestResults')
 const students = require('./branches')
@@ -106,10 +108,14 @@ const getCurrentBranch = () => Git.Repository.open(".")
   .then(repo => repo.getCurrentBranch())
   .then(ref => ref.name().split('/').pop())
 
-const checkoutBranch = branchName => Git.Repository.open(".")
-  .then(repo => repo.getBranch(`refs/heads/${branchName}`)
-  .then(ref => repo.checkoutRef(ref))
-)
+// const checkoutBranch = branchName => Git.Repository.open(".")
+//   .then(repo => repo.getBranch(`refs/heads/${branchName}`)
+//   .then(ref => repo.checkoutRef(ref))
+// )
+
+const checkoutBranch = branchName => execAsync(`git checkout ${branchName}`, {
+  cwd: path.resolve(__dirname, '../')
+})
 
 const runAllBranches = () =>
   Promise.reduce(students, ({ done, failed }, branchName) => {
