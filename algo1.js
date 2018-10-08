@@ -19,38 +19,15 @@ Au final la liste devra ressembler à :
 */
 
 
-let column = 0
-let nbPlace = 0
+getSeat = () => {
+  totalSeats =[];
+  for (let r = 1; r <= 26; r++) {
+    for (let c = 1; c <=100 ; c ++)
+      totalSeats.push(`${r}-${c}`);
+  }
 
-let column = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-
-function CountSeats(room) {
-  return room.map(function(col) {
-   let seat = 1;
-   for (let i=0, i<=100, i++) {
-    seat +=1
-   
-    return '${col}-${seat}
-    
-  });
+return totalSeats
 }
-
-
-
-
-let nbPlace = '';
-    while ()
-      for (col=0, col <=26, i++) {
-        
-      }
-let column = 1;
-let seat = 1;
-for (let i=0, i<=100, i++) {
-  seat +=1
-
-        
-          
-        return '${column}-${seat}'};
-
+console.log(getSeat())
 
 
