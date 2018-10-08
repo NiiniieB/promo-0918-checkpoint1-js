@@ -15,5 +15,27 @@ Au final la liste devra ressembler à :
 26-99
 26-100
 
+function tableau(){
+return console.log(tab)
+  
+}
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+let c1=0
+let c2=0
+let tab = []
+
+function sieges(){
+  for (i=0; i<26; i++){
+    c1++
+      for(j=0; j<100; j++){
+        c2++
+        tab.push(c1+'-'+c2)
+        
+      }
+  }
+  return console.log(tab)
+}
+
+
+sieges()
