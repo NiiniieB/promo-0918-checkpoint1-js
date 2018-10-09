@@ -22,11 +22,14 @@ créer un tableau vide
 faire une boucle qui compte de 1 à 26
 à chaque fois on ajoute le numéro au tableau
 */
-const myArray =[]  
-
-for (var i=1; i<=26; i++) {
-for (var j=1; j<=100; j++){
-myArray.push(i + "-"+ j)
-}
-}
-console.log (myArray)
+function sieges (i,j){
+  const myArray =[]  
+  
+  for (var i=1; i<=26; i++) {
+    for (var j=1; j<=100; j++){
+    myArray.push(i + "-"+ j)
+  }
+  }
+  console.log (myArray)
+  }
+  sieges (26,100)
