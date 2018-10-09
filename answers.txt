@@ -1,16 +1,16 @@
-Q.1: d
-Q.2: d
-Q.3: a
-Q.4: b
-Q.5: b
-Q.6: b
-Q.7: c, e
-Q.8: e
-Q.9: b
-Q.10: a, b
-Q.11: a, b, d
-Q.12: c
-Q.13: b
-Q.14: b
-Q.15: a
-Q.16: a
+Q.1: d / OK
+Q.2: d / OK
+Q.3: a / OK
+Q.4: b / OK
+Q.5: b / OK
+Q.6: b / OK
+Q.7: c, e / OK
+Q.8: e / FAUX -> C
+Q.9: b / OK
+Q.10: a, b / FAUX -> A, B, E
+Q.11: a, b, d / FAUX -> A, E
+Q.12: c / OK
+Q.13: b / FAUX -> C
+Q.14: b / FAUX -> D
+Q.15: a / FAUX -> A, C, D
+Q.16: a / FAUX -> A, D
