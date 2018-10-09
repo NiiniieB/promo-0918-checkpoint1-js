@@ -1,16 +1,16 @@
-Q.1: d
-Q.2: d
-Q.3: a
-Q.4: b
-Q.5: b
-Q.6: b
-Q.7: a
-Q.8: a
-Q.9: b
-Q.10: a
-Q.11: a
-Q.12: c
-Q.13: a
-Q.14: b
-Q.15: a
-Q.16: a
+Q.1: d /ok
+Q.2: d /ok
+Q.3: a /ok
+Q.4: b /ok
+Q.5: b /ok
+Q.6: b /ok
+Q.7: a / c-e
+Q.8: a / c
+Q.9: b /ok
+Q.10: a / a-b-e
+Q.11: a /a-e
+Q.12: c /ok
+Q.13: a /c
+Q.14: b /d
+Q.15: a /a-c-d
+Q.16: a /a-d
