@@ -1,16 +1,17 @@
-Q.1: d
-Q.2: d
-Q.3: a
-Q.4: b
-Q.5: b
-Q.6: e
-Q.7: a,c,e
-Q.8: c
-Q.9: b
-Q.10: a,b
-Q.11: b,
-Q.12: c
-Q.13: c
-Q.14: b
-Q.15: a
-Q.16: a
+Q.1: d OK
+Q.2: d OK
+Q.3: a OK
+Q.4: b OK
+Q.5: b OK
+Q.6: e NO (b)
+Q.7: a,c,e NO (c,e)
+Q.8: c OK
+Q.9: b OK
+Q.10: a,b NO (a,b,e)
+Q.11: b NO (a, e)
+Q.12: c OK
+Q.13: c OK
+Q.14: b NO (d)
+Q.15: a NO (a,c,d)
+Q.16: a NO (a,d) 
+7 fautes! 9/16
