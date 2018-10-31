@@ -5,5 +5,19 @@
 */
 
 function fibonacci(num) {
-  
+    let a = 0
+    let b = 1
+    let c = 1
+    for(let i = 0; i <= num; i++){
+        if(i > 0){
+          c = a+b
+          a = b
+          b = c
+        }
+    }
+  return c
 }
+
+
+
+
