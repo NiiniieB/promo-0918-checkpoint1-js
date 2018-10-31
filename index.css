@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+li{
+    padding: 0;
+    display: inline-block;
+}
+img {
+    max-width: 25%;
+    display: inline;
+}
+
+@media screen and (max-device-width:480px) {
+    .bloc {
+      display:block;
+      clear:both;
+    }
+  }
