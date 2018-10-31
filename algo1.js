@@ -17,3 +17,13 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+function classer(colonne, siege){
+  let table = [];
+  for(let i = 0; i < colonne.length; i++){
+    for(let j = 0; j < siege.length; j++){
+      table.push(colonne[i] + "-" + siege[j])
+    }
+  }
+  return table
+}
