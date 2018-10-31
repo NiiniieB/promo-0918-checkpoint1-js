@@ -20,13 +20,17 @@ Au final la liste devra ressembler à :
 
 
 let monTableau = []
-let col = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
+let col = 26
 let sieges = 100
+compteur = 0
 
 function calcul (col,sieges){
   for (let i=0 ; i < col.length ; i++){
-    col[i]
-    console.log(monTableau)
-  }return monTableau
+    monTableau.push([i]+compteur);
+      compteur++;
+    if (compteur < 100){
+        return monTableau
+        } 
+  }
 }
 
