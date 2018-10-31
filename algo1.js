@@ -18,15 +18,15 @@ Au final la liste devra ressembler à :
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
 
-let array1 = [];
+let tabl = [];
 
-function chaises(k){
+function sieges(k){
 	for(let i = 1; i < k + 1; i++){
 		for(let j = 1; j < 101; j++){
-			array1.push(i + "-" + j);
+			tabl.push(i + "-" + j);
 		}
 	}
-	return(array1);
+	return(tabl);
 }
 
-console.log(chaises());
+console.log(sieges(26));
