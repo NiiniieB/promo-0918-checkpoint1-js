@@ -2,3 +2,13 @@ img{
     width: 100%;
     overflow: hidden;
 }
+
+.gif{
+   padding-top: 5em;
+   padding-bottom:5em;
+}
+.gif img{
+    width: 50%;
+ margin: 0 auto;
+ display: block;
+}
