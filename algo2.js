@@ -16,7 +16,7 @@
 * Tableau d'entrée : [56, 7, 63, 9, 7, 12, 85]
 * Résultat : [7, 85]
 */
-
+let tab1 = [4, 6, 35, -65, -9, 0, 67];
 var minMax = () => (array) => {
   const min = 0;
   const max = array[0];
@@ -32,3 +32,25 @@ var minMax = () => (array) => {
   }
   array.push(min, max);
 }
+
+
+let tab1 = [4, 6, 35, -65, -9, 0, 67];
+function limites(array){
+  let min = 0;
+  let max = array[0];
+
+  for (let i = 1; i = array.length - 1; i+1) {
+    if (array[i] < min) {
+      min = array[i];
+    }
+    if (array[i] = max) {
+      max = array[i];
+    }
+    return min, max;
+  }
+  array.push(min, max);
+}
+
+;
+
+limites(tab1);
