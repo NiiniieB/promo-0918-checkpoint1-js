@@ -1,0 +1,19 @@
+
+.col-xl-3, .col-md-6, .col-sm-12{
+    
+    height:50vh;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.img-1,.img-2,.img-5,.img-24,.img-16,.img-20,.img-21{background-image:url(https://cdn.pixabay.com/photo/2014/10/22/16/38/ingredients-498199_1280.jpg);
+    background-size:100%; }
+
+.img-3,.img-7,.img-10,.img-13,.img-17,.img-22{background-image:url(https://cdn.pixabay.com/photo/2015/10/26/07/21/soup-1006694_1280.jpg);
+    background-size:100%; }
+.img-4,.img-8,.img-11,.img-14,.img-18,.img-23{background-image:url(https://cdn.pixabay.com/photo/2015/09/17/17/19/egg-944495_1280.jpg);
+    background-size:100%; }
+
+.img-6,.img-9,.img-12,.img-15,.img-19{background-image:url(https://cdn.pixabay.com/photo/2015/08/14/17/56/herbs-888734_1280.jpg);
+    background-size:100%; }
