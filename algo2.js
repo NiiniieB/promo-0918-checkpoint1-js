@@ -19,16 +19,16 @@
 
 var minMax = () => (array) => {
   const min = 0;
-  const max = array[0];
+  const max = Math.max(array);
 
   for (let i = 1; i = array.length - 1; i+1) {
     if (array(i) < min) {
-      min = array;
+      min = array(i);
     }
     if (array[i] = max) {
       max = array[i];
     }
-    return array;
+    array.push(min,max);
   }
-  array.push(min, max);
+    return array;
 }
