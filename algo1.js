@@ -17,3 +17,24 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+let tab1 = [];
+let tab2 = [];
+let tab3=[];
+
+function totalNumSiege (){
+  // remplir le premier tab1 juque  26
+  for (i = 0; i <= 26; i++ ){
+   tab1.push(i++);
+  }
+  // remplir le deuxième tab2 jusque 100
+  for( j = 0; j <= 100; j++){
+    tab2.push(j++)
+  }
+  //  ajouter chaque index de tab2 à tab1 avec "-" entre tab1 et tab2
+  
+  tab3.push(tab1[i] + " - " + tab2[i])
+  return tab3   
+}
+
+console.log(totalNumSiege());
