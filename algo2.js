@@ -17,18 +17,33 @@
 * Résultat : [7, 85]
 */
 
-var minMax = () => (array) => {
-  const min = 0;
-  const max = array[0];
-
-  for (let i = 1; i = array.length - 1; i+1) {
-    if (array(i) < min) {
-      min = array;
+var minMax = function miniMaxi(array) {
+  let min = 100000;
+  let max = -100000;
+  let array2 = [min, max]
+  console.log(array,array2)
+  for (let i = 0; i < array.length; i++) {
+    console.log("i=",array[i])
+   
+    if (array[i] <= min) {
+      console.log("je suis plus petit que min")
+      min = array[i];
+      console.log("min vaut",min)
+      array2[0]=min
     }
-    if (array[i] = max) {
+    if (array[i] >= max) {
+      console.log("je suis plus grand que max")
       max = array[i];
+      console.log("max vaut",max)
+      array2[1]=max
     }
-    return array;
+    
   }
-  array.push(min, max);
+  
+  console.log(array2)
+  return array2;
 }
+
+minMax([4, 6, 35, -65, -9, 0, 67]);
+minMax([-30, 5, 43, 108, -5, -7, 89]);
+minMax([56, 7, 63, 9, 7, 12, 85]);
